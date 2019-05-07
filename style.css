@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html,
+body {
+  background-color: #708090;
+  text-align: center;
+  font-family: 'Raleway', Arial, Helvetica;
+	}
+
+h1{
+  font-size: 3em;
+  margin: 25px;
+}
+
+#form-outer {
+  background-color: #E3E3E3;
+  margin: auto;
+  border-radius: 50px;
+  max-width: 750px;
+  padding: 20px;
+  padding-top: 20px;
+}
+
+.labels {
+ display: block;
+	text-align: center;
+	padding: 15px;
+	}
+
+.rightTab {
+  display: block;
+  text-align: middle;
+  }
+
+.input-field {
+  height: 15px;
+  width: 300px;
+  padding: 12px;
+  margin: 5px;
+  border: 2.5px solid #F0F0F0;
+  border-radius: 10px;
+}
+
+#number {
+  height: 15px;
+  width: 125px;
+  padding: 12px;
+  margin: 5px;
+  border: 2.5px solid #F0F0F0;
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  float: left;
+  width: 15px;
+	}
+
+input[type="radio"]{
+	float: left;
+	width: 25px;
+	}
+
+#submit {
+  background-color: #505050;
+  border-radius: 50px;
+  color: white;
+  font-size: 1em;
+  height: 35px;
+  width: 75px;
+  margin: 20px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+	}
+
+.radio, .checkbox {
+  position: relative;
+  left: -33px;
+  margin-left: 10px;
+  display: inline-block;
+  padding-bottom: 10px;
+}
